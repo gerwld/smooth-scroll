@@ -19,7 +19,7 @@ const introImage = useRef(null);
         start: "top",
         end: "+=500px",
         scrub: true,
-        markers: true
+        // markers: true
       }
     });
 

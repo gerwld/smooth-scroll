@@ -3,6 +3,8 @@
 import React, { useEffect } from 'react'
 import style from './page.module.css';
 import Intro from '@/components/Intro';
+import Description from '@/components/Description';
+import Projects from '@/components/Projects';
 
 
 const page = () => {
@@ -17,6 +19,8 @@ const page = () => {
   return (
     <div className={style.main}>
       <Intro/>
+      <Description/>
+      <Projects/>
     </div>
   )
 }
