@@ -32,3 +32,8 @@
     filter: brightness(0.7);
 }
 
+
+.introImage img {
+    object-fit: cover;
+    object-position: top;
+}
