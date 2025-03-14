@@ -36,7 +36,7 @@ const introImage = useRef(null);
     <div className={style.intro}>
       <div ref={backgroundImage} className={style.backgroundImage}>
         <Image
-          src={"/images/background.jpeg"}
+          src={"/smooth-scroll/images/background.jpeg"}
           fill={true}
           alt="Background Image"
         />
@@ -45,7 +45,7 @@ const introImage = useRef(null);
       <div className={style.introContainer}>
         <div ref={introImage} data-scroll data-scroll-speed="0.3" className={style.introImage}>
           <Image
-            src={"/images/intro.png"}
+            src={"/smooth-scroll/images/intro.png"}
             fill={true}
             alt="Background Image"
           />

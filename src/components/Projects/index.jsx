@@ -44,7 +44,7 @@ const index = () => {
         <div className={style.projectDescription}>
             <div ref={imageContainer} className={style.imageContainer}>
                 <Image 
-                    src={`/images/${projects[selectedProject].src}`}
+                    src={`/smooth-scroll/images/${projects[selectedProject].src}`}
                     fill={true}
                     alt="Image"
                 />
